@@ -19,10 +19,6 @@ add_library(tokens STATIC
 target_include_directories(tokens
         PUBLIC
         ${CMAKE_SOURCE_DIR}
-)
-
-target_include_directories(tokens
-        PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
