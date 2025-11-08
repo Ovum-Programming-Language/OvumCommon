@@ -20,5 +20,6 @@ target_include_directories(tokens
         PUBLIC
         ${CMAKE_SOURCE_DIR}
         ${CMAKE_CURRENT_SOURCE_DIR}
+        "${CMAKE_CURRENT_SOURCE_DIR}/../"
 )
 
